@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { BlogGrid } from "@/components/layout/BlogGrid";
-import { blogPosts } from "@/lib/data";
+import { BLOG_POSTS } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Blog — Tips, Guides & Tutorials",
