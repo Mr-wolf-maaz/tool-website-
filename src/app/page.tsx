@@ -4,7 +4,7 @@ import { CategoryGrid } from "@/components/layout/CategoryGrid";
 import { ToolGrid } from "@/components/layout/ToolGrid";
 import { BlogGrid } from "@/components/layout/BlogGrid";
 import { NewsletterSection } from "@/components/layout/NewsletterSection";
-import { categories, getTrendingTools, blogPosts } from "@/lib/data";
+import { CATEGORIES, getTrendingTools, BLOG_POSTS } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "ToolForge — Free Online Tools Platform",
