@@ -20,7 +20,7 @@ export default function BlogPage() {
         </p>
       </div>
       <div className="mt-8">
-        <BlogGrid posts={blogPosts} />
+        <BlogGrid posts={BLOG_POSTS} />
       </div>
     </section>
   );
